@@ -1,0 +1,20 @@
+{
+  "name": "Sean-Proxy",
+  "version": "1.0.0",
+  "description": "This proxy page is the point at which the client will interact with our application. The proxy uses a microservice architecture in order to encourage modularity, scalability and ease of testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanCMeyer/Sean-Proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanCMeyer/Sean-Proxy/issues"
+  },
+  "homepage": "https://github.com/SeanCMeyer/Sean-Proxy#readme"
+}
