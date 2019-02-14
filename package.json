@@ -1,20 +1,40 @@
 {
-  "name": "Sean-Proxy",
+  "name": "proxy",
   "version": "1.0.0",
-  "description": "This proxy page is the point at which the client will interact with our application. The proxy uses a microservice architecture in order to encourage modularity, scalability and ease of testing.",
+  "description": "This proxy page is the point at which the client will interact with our application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon ./server/proxyServer.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SeanCMeyer/Sean-Proxy.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sean Meyer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SeanCMeyer/Sean-Proxy/issues"
+    "url": "https://github.com/SeanCMeyer/Sean-Proxy.git/issues"
   },
-  "homepage": "https://github.com/SeanCMeyer/Sean-Proxy#readme"
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "cors": "^2.8.5",
+    "css-loader": "^2.1.0",
+    "express": "^4.16.4",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {}
 }
